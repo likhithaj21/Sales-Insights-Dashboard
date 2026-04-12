@@ -105,23 +105,3 @@ ORDER BY profit_margin_pct DESC;
 ```
 
 ---
-
-## 📊 Power BI Dashboard Layout
-
-### Row 1 — KPI Cards (6 cards across top)
-Total Sales · Total Profit · Orders · Customers · Avg Margin · Avg Ship Days
-
-### Row 2 — Main Charts
-- **Left (wide):** Line chart — Monthly Sales + Profit dual axis (monthly_sales.csv)
-- **Right:** Horizontal bar — Top sub-categories by sales (category_performance.csv)
-
-### Row 3 — Detail Charts
-- **Left:** Clustered bar — Region sales + profit margin % label (region_performance.csv)
-- **Middle:** Donut chart — Sales by customer segment (segment_analysis.csv)
-- **Right:** Bar chart — Profit margin by discount band (discount_impact.csv)
-
-### Slicers (top of page)
-Category · Region · Year · Segment
-
----
-
