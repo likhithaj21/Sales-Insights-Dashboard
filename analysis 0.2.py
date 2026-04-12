@@ -201,7 +201,7 @@ gs = gridspec.GridSpec(
 
 # ── Title ─────────────────────────────────────────
 fig.text(0.5, 0.965,
-         "SalesPulse Pro — Sales Intelligence Dashboard",
+         "Sales Insights Dashboard",
          ha='center', fontsize=18, color='#E8EAF0', fontweight='bold')
 
 # ── KPI Banner ────────────────────────────────────
@@ -305,7 +305,7 @@ ax6.set_title("Profit Margin by Discount Band", fontsize=13, fontweight='bold')
 
 # ── FINAL RENDER ──────────────────────────────────
 plt.tight_layout()
-plt.show()
+#plt.show()
 # ══════════════════════════════════════════════════════════════════════════
 # 7. EXPORT CSVs for Power BI
 # ══════════════════════════════════════════════════════════════════════════
