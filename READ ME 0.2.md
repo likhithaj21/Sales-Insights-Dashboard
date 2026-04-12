@@ -36,7 +36,7 @@ End-to-end sales analytics system built on the **Superstore dataset** — the mo
 
 | Tool | Purpose |
 |---|---|
-| Python 3.10+ | Data cleaning, feature engineering, visualization |
+| Python 3.13.9 | Data cleaning, feature engineering, visualization |
 | Pandas, NumPy | Data manipulation |
 | Matplotlib, Seaborn | Dashboard charts |
 | SQL (SQLite) | 12 analytics queries |
@@ -56,7 +56,7 @@ SalesDashboard/
 ├── data/
 │   └── superstore.csv     ← Download from Kaggle
 └── outputs/
-    ├── salespulse_dashboard.png
+    ├── sales-Insights-Dashboard.png
     ├── monthly_sales.csv
     ├── category_performance.csv
     ├── region_performance.csv
@@ -64,7 +64,8 @@ SalesDashboard/
     ├── segment_analysis.csv
     ├── discount_impact.csv
     ├── state_performance.csv
-    └── master_sales.csv
+    └── master_sales.cs
+    └── powerbi_dashboard.csv
 ```
 
 
