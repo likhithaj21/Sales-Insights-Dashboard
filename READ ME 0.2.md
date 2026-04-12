@@ -77,17 +77,8 @@ SalesDashboard/
     └── master_sales.csv
 ```
 
----
 
-## ⚡ Quickstart
 
-```bash
-git clone https://github.com/YOUR_USERNAME/SalesPulse-Pro.git
-cd SalesPulse-Pro
-pip install -r requirements.txt
-# Place superstore.csv in data/
-python analysis.py
-```
 
 ---
 
@@ -144,19 +135,3 @@ Category · Region · Year · Segment
 
 ---
 
-## 🎤 How to Explain in an Interview
-
-**"Walk me through your project"**
-> "I built an end-to-end sales analytics system on the Superstore dataset — a 10,000-row real-world sales dataset. I started with Python and Pandas to clean the raw data — standardized column names, parsed dates, removed duplicates, and engineered 8 new features like profit margin and discount bands. Then I wrote 12 SQL queries including window functions for month-over-month growth and an RFM scoring model to segment customers. The main insight I found was that high-discount orders — anything above 40% — were actually losing money on average, which is counterintuitive because you'd think more discounts drive more sales. I visualized everything in a 6-panel Python dashboard and built an interactive Power BI version. I'd recommend capping discounts at 20% to recover an estimated $157K in annual profit leakage."
-
-**"What was the hardest part?"**
-> "The discount analysis was the most interesting challenge — I had to create a calculated column binning continuous discount values into bands, then compare profit margins across those bands. It showed clearly that the business was subsidizing customers at its own expense above the 20% discount threshold."
-
-**"What tools did you use and why?"**
-> "Python and Pandas for cleaning because they handle messy CSVs much better than SQL alone. SQL for the analysis queries because that's what businesses actually use in production. Power BI for the dashboard because stakeholders need interactive filters — they don't look at static charts."
-
----
-
-## 🤝 Connect
-
-[LinkedIn](https://linkedin.com/in/YOUR_PROFILE) | [GitHub](https://github.com/YOUR_USERNAME)
