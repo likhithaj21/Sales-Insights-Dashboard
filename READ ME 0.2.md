@@ -15,16 +15,6 @@
 
 ---
 
-## 📌 Resume Bullets (ATS-Optimized)
-
-- Designed end-to-end **Sales Analytics Dashboard** using **Python (Pandas)** on 10K+ Superstore records — cleaned raw data, engineered 8 calculated features including profit margin, discount bands, and ship days
-- Wrote **12 production-grade SQL queries** using window functions, CTEs, LAG for MoM/YoY growth, NTILE for RFM customer scoring, and CASE statements for discount band segmentation
-- Performed **EDA and KPI analysis** across 4 regions, 3 customer segments, and 17 product sub-categories — identified $157K in profit leakage from high-discount orders
-- Built **6-panel dark-theme dashboard** (Matplotlib) and exported **8 structured CSVs** for Power BI reporting — KPI cards, trend lines, category bars, region comparison, segment donut, discount impact
-- Derived **8 actionable business insights** including Technology category delivering 2× the profit margin of Furniture, and high discounts (>40%) turning profitable orders into losses
-
----
-
 ## 🎯 Project Overview
 
 End-to-end sales analytics system built on the **Superstore dataset** — the most commonly used dataset in real analytics interviews and assessments. Covers the complete analyst workflow from messy CSV to boardroom-ready dashboard.
