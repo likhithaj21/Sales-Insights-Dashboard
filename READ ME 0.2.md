@@ -11,7 +11,7 @@
 
 ## 📊 Dashboard Preview
 
-![SalesPulse Dashboard](outputs/salespulse_dashboard.png)
+![SalesPulse Dashboard](outputs/powerbi_dashboard.png)
 
 ---
 
